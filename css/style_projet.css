@@ -1,0 +1,51 @@
+*{
+    background-color:#EBEBEB;
+    font-family: 'PRIMETIME', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.home{
+    margin: 5px;
+}
+
+.row img{
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.col-xs-6{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+
+/* Responsive ajustement Manuel avec comme base boostrap */
+@media only screen and (max-width: 850px) {
+
+.row a{
+    display: inline;
+}
+
+    .row img{
+        padding-top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    h1{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .col-xs-6{
+        width: 40%;
+        height: 40%;
+        text-align: center;
+    }
+}

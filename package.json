@@ -1,0 +1,24 @@
+{
+"name": "project_cv",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"dependencies": {
+  "bootstrap": "^3.4.1",
+  "json-server": "^0.17.0"
+},
+"devDependencies": {},
+"scripts": {
+  "data": "npx json-server --watch database/db.json"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/pascal-rithi-ke/project_cv.git"
+},
+"author": "Kien_Pascal",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/pascal-rithi-ke/project_cv/issues"
+},
+"homepage": "https://github.com/pascal-rithi-ke/project_cv#readme"
+}

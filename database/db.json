@@ -1,0 +1,78 @@
+{
+    "owner": [
+      {
+        "name": "Eng Pascal",
+        "surname": "Kien",
+        "email": "random.gmail.com",
+        "photo": "https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg",
+        "password": "abcd",
+        "link_git": "https://github.com/pascal-rithi-ke",
+        "promo": "Bachelor DevOps FullStack, MLV"
+      }
+    ],
+    "projet": [
+      {
+      "scolaire1":[
+        {
+          "name":"Application Légère",
+          "description":"FrontEnd: HTML/CSS/JS, BackEnd: MySQL",
+          "link":"https://github.com/pascal-rithi-ke/Biblio",
+          "photo":"https://img.lemde.fr/2020/12/23/229/0/1500/750/768/384/75/0/e5ac2a2_79425-3203180.jpg"
+        }
+      ],
+      "scolaire2":[
+        {
+          "name":"GSB, Application Lourd",
+          "description":"FrontEnd: Java, BackEnd: MySQL",
+          "link":"https://github.com/Kaurey/APPLI_PPE",
+          "photo":"../img/gsb.jpg"
+        }
+      ],
+      "scolaire3":[
+        {
+          "name":"Jeux Video",
+          "description":"React, Python/Flask avec Mongodb en BackEnd + Docker Ubuntu",
+          "link":"https://github.com/pascal-rithi-ke/JeuxVideo",
+          "photo":"https://i.pinimg.com/474x/66/f3/cd/66f3cd18df514c3142fe9f78427c9c39--ps-controller-funny-art.jpg"
+        }
+      ],
+          "solo1":[
+        {
+          "name":"Manga Info",
+          "description":"React Native, Python/Flask et Mongodb BackEnd + api",
+          "link":"https://github.com/pascal-rithi-ke/MangaInfo",
+          "photo":"https://listlessink.files.wordpress.com/2012/06/shingeki-no-kyojin-ch3p301.jpg"
+        }
+      ]
+      }
+    ],
+    "cv": [
+      {
+        "info": [{
+          "name": "Eng Pascal",
+          "surname": "Kien",
+          "email":"random@gmail.com",
+          "photo": "https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg",
+          "link_git": "https://github.com/pascal-rithi-ke",
+          "promo": "Bachelor DevOps FullStack, MLV",
+          "phone":"07-X-X-X-X"
+        }],
+        "moreInfo": "Autodidacte,Curieux des nouvelles Technologies",
+        "experience": [{
+          "bts1":"Bloasis",
+          "bts2":"Okatro",
+          "alter":"Safran AirCraft Engine"
+        }],
+        "skill": [{
+          "front":"HTML/CSS/JS",
+          "back":"Python",
+          "tool":"Outil: Docker,Git,Ubuntu",
+          "framework":"FrameWork: React/React Native"
+        }],
+        "diploma":  [{
+          "bac":"Bac STI2D Option SIN",
+          "bts":"BTS SIO Option SLAM"
+        }]
+      }
+    ]
+  }

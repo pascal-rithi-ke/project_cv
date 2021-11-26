@@ -1,0 +1,170 @@
+*{
+font-family: 'PRIMETIME', sans-serif;
+}
+
+body{
+  background-color:#EBEBEB;
+  border-color: black;
+}
+
+body a{
+text-decoration: none;
+color: black;
+}
+body a:hover{
+  color: cyan;
+}
+
+h2{
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #6d6a6a;
+  color: black;
+}
+
+#main{
+display: none;
+}
+
+#text{
+padding-top:100px;
+text-align: center;
+}
+
+#navbar{
+padding: 2%;
+}
+
+#photo_profil{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+#navbar i{
+  float: right;
+}
+
+.fa-wifi{
+margin-right: 20px;
+}
+
+#decoration{
+  text-align: center;
+}
+
+#decoration i{
+      font-size:20px;padding:2%;border-radius: 50%;background-color: white;
+}
+#decoration span{
+      font-size:20px;padding:2%;border-radius: 50%;background-color: white;
+}
+.material-icons:hover{
+  border: solid 3px;
+  border-color:cyan;
+}
+.fa-shopping-bag:hover{
+  border: solid 3px;
+  border-color:cyan;
+}
+.fa-nintendo-switch:hover{
+  border: solid 3px;
+  border-color:cyan;
+}
+
+#footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: white;
+}
+
+#footer img{
+  width:50px;
+  margin-left: 20px;
+}
+
+.option{
+float: right;
+}
+
+.option p{
+  color: black;
+  font-weight: bold;
+}
+.option button{
+  border-radius: 50%;
+  color: white
+  ;background-color: black;
+}
+#block_menu{
+padding-top: 20px;
+}
+#menuburger{
+display: none;
+float: left;
+position: absolute;
+margin-top: 20px;
+background-color: rgb(198, 188, 188);
+border: solid 5px;
+border-color: white;
+font-weight: bold;
+}
+.option{
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 950px) {
+#frame{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 40px;
+}
+
+.frames{
+  background-color: rgb(198, 188, 188);
+  border: solid 5px;
+  border-color: white;
+  width: 500px;
+  flex-shrink: 0;
+  height: 300px;
+  margin: 30px;
+}
+
+.img_projet{
+  height: 300px;
+  width: 500px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+#frame{
+width: 100%;
+height: 100%;
+display: flex;
+overflow-x: auto;
+margin-top: 100px;
+}
+#frames{
+  background-color: rgb(198, 188, 188);
+  border: solid 5px;
+  border-color: white;
+  width: 500px;
+  flex-shrink: 0;
+  height: 300px;
+  margin: 30px;
+}
+.img_projet{
+  width: 250px;
+  height: 150px;
+}
+#decoration{
+margin-top:100px;
+}
+}
